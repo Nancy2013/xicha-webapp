@@ -1,0 +1,90 @@
+html, body {
+	height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+	font-size: 0.32rem;
+}
+
+
+.plainColor {
+	color: #8a96aa;
+}
+
+.color {
+	color: #185EF0;
+}
+
+.bgColor {
+	background-color: #185EF0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.whiteBg {
+	background-color: #fff;
+}
+
+.white {
+	color: #fff;
+}
+
+.dangerBg {
+	background-color: #D81E06;
+}
+
+.radius {
+	border-radius: 0.04rem;
+}
+
+.shadow {
+	box-shadow: 0 0.04rem 0.08rem 0 rgba(0,0,0,0.08);
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    /* color: rgba(21, 21, 21, 0.5) */
+	color: #696969;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    /* color: rgba(21, 21, 21, 0.5); */
+	color: #696969;
+}
+
+input::-ms-clear, input::-ms-reveal{
+    display: none;
+}
+input:disabled {
+	background-color:transparent;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.text_ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+    word-wrap: normal;
+	text-overflow: ellipsis;
+}
+
+.text_ellipsis2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.text_ellipsis3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
